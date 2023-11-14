@@ -49,7 +49,7 @@ app.use("/api/user" , usersRouter)
 
 
 // Run Server
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 9000;
 app.listen(PORT, () => {
   console.log("Server is running on ", PORT);
 });
